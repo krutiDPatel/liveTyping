@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+    <head>
+        <title>List</title>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    
+    </head>
+    <body>
+        <div class="wrapper">
+
+            <div class="leftCol">
+
+                <br><br><br>
+
+                <nav style="text-align: center;">
+                    <span onclick="changeBg('style1')" style="cursor: pointer;">Style 1</span> &nbsp;&nbsp;
+                    <span onclick="changeBg('style2')" style="cursor: pointer;">Style 2</span> &nbsp;&nbsp;
+                    <span onclick="changeBg('style3')" style="cursor: pointer;">Style 3</span>
+                </nav>
+
+                <br><br><br>
+
+                <label>Write Name</label>
+                <input type="text" id="groomName" onkeyup="writeName()">
+
+                <br><br>
+
+
+                <label>Select Date</label>
+                <input type="datetime-local" id="weddingDate" onchange="displayDate()">
+
+            </div>
+
+            <div class="rightCol">
+
+                <!-- Destined Div to change BG Image-->
+                <div id="wedBG">
+
+                    <br><br><br><br><br><br>
+
+                    <!--Groom Name will display here-->
+
+                    <p id="displayGroom" style="text-align: center;"></p>
+
+
+                    <br><br><br><br><br><br>
+
+                    <!--Wedding Date will display here-->
+
+                    <p id="disWedDate" style="text-align: center;"></p> 
+
+                </div>
+
+            
+            </div>
+
+            <div class="clear"></div>
+
+        </div>
+
+        <script type="text/javascript" src="Script/liveTyping.js"></script>
+    </body>
+    </html>

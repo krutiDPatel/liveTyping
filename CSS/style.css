@@ -1,0 +1,49 @@
+
+* {
+    box-sizing: border-box;
+}
+
+.wrapper {
+    max-width: 800px;
+    background: yellow;
+    height: 1000px;
+    margin: 0 auto;
+}
+
+.leftCol {
+    float: left;
+    width: 50%;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+.rightCol {
+    float: left;
+    width: 50%;
+    height: 1000px;
+    border: 1px solid black;
+}
+
+.clear {
+    clear: both;
+}
+
+#wedBG {
+    height: 800px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.paraStyle {
+    color: red;
+}
+
+.paraStyles {
+    font-family: cursive;
+    color: blueviolet;
+}
+
+.paraStylesNew {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(226, 43, 165);
+}
